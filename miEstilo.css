@@ -1,6 +1,21 @@
 .titulos{
  text-align: center;
- font-family: sans-serif;
+ font-family: "Arial";
     font-size: 40px;
+    font-style: oblique;
 
+}
+
+.texto{
+    text-align: justify;
+    font-family: "Arial";
+    font-size: 20px;
+    font-style: normal;
+}
+
+.textocenter{
+    text-align: center;
+    font-family: "Arial";
+    font-size: 20px;
+    font-style: normal;
 }
