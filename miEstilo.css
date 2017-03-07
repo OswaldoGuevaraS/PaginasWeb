@@ -1,13 +1,21 @@
+.border{
+  border-style: outset;
+    border-width: 4px;
+    background-color: #ECECEC;
+}
+
 .titulos{
  text-align: center;
  font-family: "Arial";
     font-size: 40px;
     font-style: oblique;
+    color: darkblue;
+    text-shadow: 5px 5px 5px #B8B8B8;
 
 }
 
 .texto{
-    text-align: justify;
+    text-align: center;
     font-family: "Arial";
     font-size: 20px;
     font-style: normal;
@@ -19,3 +27,11 @@
     font-size: 20px;
     font-style: normal;
 }
+
+.margen{
+      margin-top:auto;
+  margin-right: 100px;
+  margin-bottom: auto;
+  margin-left: 100px;
+}
+
