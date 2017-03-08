@@ -2,36 +2,46 @@
   border-style: outset;
     border-width: 4px;
     background-color: #ECECEC;
+   
 }
 
 .titulos{
  text-align: center;
  font-family: "Arial";
-    font-size: 40px;
+    font-size: 60px;
     font-style: oblique;
-    color: darkblue;
+    color: #00043A;
     text-shadow: 5px 5px 5px #B8B8B8;
+    
 
 }
 
 .texto{
-    text-align: center;
+    text-align: justify;
     font-family: "Arial";
     font-size: 20px;
     font-style: normal;
 }
 
-.textocenter{
-    text-align: center;
-    font-family: "Arial";
-    font-size: 20px;
-    font-style: normal;
-}
 
 .margen{
       margin-top:auto;
-  margin-right: 100px;
+  margin-right: 200px;
   margin-bottom: auto;
-  margin-left: 100px;
+  margin-left: 200px;
 }
+.fondopanel{
+   
+    background-color: white;
+  
+
+   
+}
+.textura{
+    background-repeat:inherit;
+     width: 100%;
+    background-image: url(./img/texturas/texturarombo.jpg)
+    
+}
+
 
