@@ -84,10 +84,12 @@ li a {
 }
 
 li a:hover {
-    background-color:#747474;
+    background-color:firebrick;
+        /*#747474*/
 }
 
 .style { 
   text-align: center;
 }
+
 
