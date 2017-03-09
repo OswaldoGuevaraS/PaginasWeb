@@ -1,8 +1,8 @@
 .border{
-  border-style: outset;
+  border-style: inset;
     border-width: 4px;
-    background-color: #ECECEC;
-   
+    background-color: #CACACA;
+   border-color:blue;
 }
 
 .titulos{
@@ -15,14 +15,28 @@
     
 
 }
-
+.desc{
+     text-align: center;
+    font-family: "Arial";
+    font-size: 18px;
+    font-style: italic;
+}
 .texto{
     text-align: justify;
     font-family: "Arial";
     font-size: 20px;
     font-style: normal;
+   
+    
+    
 }
 
+.textocenter{
+    text-align: center;
+    font-family: "Arial";
+    font-size: 20px;
+    font-style: normal;
+}
 
 .margen{
       margin-top:auto;
@@ -30,18 +44,50 @@
   margin-bottom: auto;
   margin-left: 200px;
 }
-.fondopanel{
-   
-    background-color: white;
-  
-
-   
+.fondomargen{
+        background-image:url(./img/texturas/6841.jpg);
+        background-repeat: repeat;
+    <a href="http://www.freepik.es/vector-gratis/fondo-suave-con-una-linda-mancha-de-acuarela-azul_1064674.htm">Diseñado por Freepik</a>
 }
+
+
 .textura{
     background-repeat:inherit;
      width: 100%;
-    background-image: url(./img/texturas/texturarombo.jpg)
+  
+    background-image: url(./img/texturas/texturarombo.jpg);
+    
     
 }
 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Arial";
+    font-size: 15px;
+}
+
+li a:hover {
+    background-color:#747474;
+}
+
+.style { 
+  text-align: center;
+}
 
