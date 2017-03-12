@@ -22,7 +22,7 @@
     font-style: italic;
 }
 .texto{
-    text-align: justify;
+    text-align:justify;
     font-family: "Arial";
     font-size: 20px;
     font-style: normal;
@@ -39,15 +39,21 @@
 }
 
 .margen{
-      margin-top:auto;
-  margin-right: 200px;
-  margin-bottom: auto;
-  margin-left: 200px;
+margin-bottom: auto;
+margin-top: auto;
+margin-left: 255px;
+    margin-right: 255px;
+}
+.textoMargen{
+margin-bottom: 10px;
+margin-top: 20px;
+margin-left: 50px;
+    margin-right: 50px;
 }
 .fondomargen{
         background-image:url(./img/texturas/6841.jpg);
         background-repeat: repeat;
-    <a href="http://www.freepik.es/vector-gratis/fondo-suave-con-una-linda-mancha-de-acuarela-azul_1064674.htm">Diseñado por Freepik</a>
+   
 }
 
 
