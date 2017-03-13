@@ -117,6 +117,7 @@ div.cae_texto img{
     height:200px;
     float:left;
     margin: 10px 15px;
+    
 }
 .pie{
 height: 50px;
@@ -135,4 +136,7 @@ clear: both;
     
     border-right-style: groove;
     border-right-width: 20px;
+}
+*{
+    margin: 0px;
 }
