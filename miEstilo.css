@@ -1,8 +1,10 @@
 .border{
   border-style: inset;
     border-width: 4px;
-    background-color: #CACACA;
-   border-color:blue;
+    border-color:#6890aa;
+    background-image: url(./img/texturas/soft-grid.gif); /*fondo a los cuadros interiores*/
+    box-shadow: 5px 10px 10px #000;
+
 }
 
 .titulos{
@@ -10,8 +12,18 @@
  font-family: "Arial";
     font-size: 60px;
     font-style: oblique;
-    color: #00043A;
-    text-shadow: 5px 5px 5px #B8B8B8;
+    color:white;
+    text-shadow: 5px 5px 5px #000000;
+  }
+
+.subtitulos{
+ text-align: center;
+ font-family: "Arial";
+    font-size: 40px;
+    font-style: oblique;
+    color:brown;
+    
+    text-shadow: 2px 2px 2px #7E7E7E;
     
 
 }
@@ -50,9 +62,12 @@ margin-top: 20px;
 margin-left: 50px;
     margin-right: 50px;
 }
-.fondomargen{
-        background-image:url(./img/texturas/6841.jpg);
+   border-right-color: 50px;
+}
+.fondomargen{    /*fondo de los cuadros con contenido*/
+       
         background-repeat: repeat;
+         opacity: 0.5;
    
 }
 
@@ -61,7 +76,7 @@ margin-left: 50px;
     background-repeat:inherit;
      width: 100%;
   
-    background-image: url(./img/texturas/texturarombo.jpg);
+    background-image: url(./img/texturas/diamond-zag.png);
     
     
 }
@@ -83,7 +98,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: inherit;
     text-decoration: none;
     font-family: "Arial";
     font-size: 15px;
@@ -91,7 +106,7 @@ li a {
 
 li a:hover {
     background-color:firebrick;
-        /*#747474*/
+       
 }
 
 .style { 
@@ -101,5 +116,23 @@ div.cae_texto img{
     width:200px;
     height:200px;
     float:left;
-    margin: 0 15px;
+    margin: 10px 15px;
+}
+.pie{
+height: 50px;
+background-color:firebrick;
+color: #fff;
+text-align: center;
+clear: both;
+
+}
+.borderTabla{
+   border-color: #A50303;
+    
+    border-left-style: groove;
+    border-left-width: 20px;
+    
+    
+    border-right-style: groove;
+    border-right-width: 20px;
 }
