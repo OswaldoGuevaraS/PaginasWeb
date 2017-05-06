@@ -1,13 +1,12 @@
-.border{
+
+.bordertest{
   border-style: inset;
-    border-width: 4px;
-    border-color:#6890aa;
-    background-image: url(./img/texturas/soft-grid.gif); /*fondo a los cuadros interiores*/
+    border-width: 6px;
+    border-color:yellow;
     box-shadow: 5px 10px 10px #000;
 
 }
-
-.titulos{
+.titulostest{
  text-align: center;
  font-family: "Arial";
     font-size: 60px;
@@ -16,7 +15,7 @@
     text-shadow: 5px 5px 5px #000000;
   }
 
-.subtitulos{
+.subtitulostest{
  text-align: center;
  font-family: "Arial";
     font-size: 40px;
@@ -27,13 +26,8 @@
     
 
 }
-.desc{
-     text-align: center;
-    font-family: "Arial";
-    font-size: 18px;
-    font-style: italic;
-}
-.texto{
+
+.textotest{
     text-align:justify;
     font-family: "Arial";
     font-size: 20px;
@@ -43,40 +37,48 @@
     
 }
 
-.textocenter{
+.textocentertest{
     text-align: center;
     font-family: "Arial";
     font-size: 20px;
     font-style: normal;
 }
 
-.margen{
+.margentest{
 margin-bottom: auto;
 margin-top: auto;
 margin-left: 255px;
     margin-right: 255px;
 }
-.textoMargen{
+.textoMargentest{
 margin-bottom: 10px;
 margin-top: 20px;
 margin-left: 50px;
     margin-right: 50px;
 }
-   border-right-color: 50px;
-}
-.fondomargen{    /*fondo de los cuadros con contenido*/
+ 
+
+.fondomargentest{    /*fondo de los cuadros con contenido*/
        
         background-repeat: repeat;
-         opacity: 0.5;
+     background-color: white;
    
 }
 
 
-.textura{
+.texturainstrucciones{
     background-repeat:inherit;
      width: 100%;
   
-    background-image: url(./img/texturas/diamond-zag.png);
+ background-color: #4582c3;
+    
+    
+}
+.texturatest{
+    background-repeat:inherit;
+     width: 100%;
+  
+ background-image:url(./img/texturas/fondotest.png);
     
     
 }
@@ -91,7 +93,7 @@ ul {
 }
 
 li {
-    float: left;
+    float: center;
 }
 
 li a {
@@ -119,7 +121,7 @@ div.cae_texto img{
     margin: 10px 15px;
     
 }
-.pie{
+.pietest{
 height: 50px;
 background-color:firebrick;
 color: #fff;
@@ -127,7 +129,7 @@ text-align: center;
 clear: both;
 
 }
-.borderTabla{
+.borderTablatest{
    border-color: #A50303;
     
     border-left-style: groove;
