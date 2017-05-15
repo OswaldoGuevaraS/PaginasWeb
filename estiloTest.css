@@ -56,6 +56,22 @@ margin-top: 20px;
 margin-left: 50px;
     margin-right: 50px;
 }
+.radioMargentest{
+margin-bottom: 10px;
+margin-top: 20px;
+margin-left: 60px;
+
+   font-family: "Arial";
+    font-size: 50px;
+    font-style: normal;
+ 
+}
+
+.fuenteRadio{
+    font-family: "Arial";
+    font-size: 50px;
+    font-style: normal;
+}
  
 
 .fondomargentest{    /*fondo de los cuadros con contenido*/
@@ -84,43 +100,7 @@ margin-left: 50px;
 }
 
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-}
 
-li {
-    float: center;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: inherit;
-    text-decoration: none;
-    font-family: "Arial";
-    font-size: 15px;
-}
-
-li a:hover {
-    background-color:firebrick;
-       
-}
-
-.style { 
-  text-align: center;
-}
-div.cae_texto img{
-    width:200px;
-    height:200px;
-    float:left;
-    margin: 10px 15px;
-    
-}
 .pietest{
 height: 50px;
 background-color:firebrick;
@@ -143,4 +123,30 @@ clear: both;
 }
 *{
     margin: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: inherit;
+    text-decoration: none;
+    font-family: "Arial";
+    font-size: 15px;
+}
+
+li a:hover {
+    background-color:firebrick;
+       
 }
